@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Default">
+      <UniqueIdentifier>{8b928181-1e8e-492c-a4ca-e2f2665fffb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{532a722f-2574-4f15-b5d5-7c6c3b6184ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{f3cc436b-5fef-4f62-ae5f-ffad35646d80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{b5e393ba-5910-4f75-9500-844429525da1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{a3dc3b15-5ea9-4b04-833e-e21fd39fd71a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Blocks">
+      <UniqueIdentifier>{19b0315d-a61c-4dd8-8b45-be2002fcb777}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Layer">
+      <UniqueIdentifier>{c117c0ef-8772-4d23-a312-bc0eb57615af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{44b3b2eb-472c-4d0c-a923-f0179fed8625}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\KeyInput">
+      <UniqueIdentifier>{fc1546db-56dc-413a-b895-482bac2838d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Time">
+      <UniqueIdentifier>{22c78fd9-5717-400a-8346-d52b3ca37378}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Scene">
+      <UniqueIdentifier>{a59e1016-e37d-4543-b659-1758ab807bd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\UI">
+      <UniqueIdentifier>{f31475ce-c0e0-4300-85fa-0692de8c9565}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Camera">
+      <UniqueIdentifier>{7fd8ac86-8828-48cd-bbf5-02af4742a361}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Square">
+      <UniqueIdentifier>{53702592-1d7a-4012-9068-19c7902912c6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Manager\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h" />
+    <ClInclude Include="Input.h">
+      <Filter>Manager\KeyInput</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="TETRIS.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="header.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="enums.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="structs.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>Manager\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="LBlock.h">
+      <Filter>Object\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBoard.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Layer.h">
+      <Filter>Scene\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Manager\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Blocks.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="JBlock.h">
+      <Filter>Object\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="IBlock.h">
+      <Filter>Object\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="OBlock.h">
+      <Filter>Object\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="TBlock.h">
+      <Filter>Object\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="ZBlock.h">
+      <Filter>Object\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="SBlock.h">
+      <Filter>Object\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>Object\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>Object\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="Square.h">
+      <Filter>Object\Square</Filter>
+    </ClInclude>
+    <ClInclude Include="GhostBlock.h">
+      <Filter>Object\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="StartButton.h">
+      <Filter>Object\UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Manager\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp" />
+    <ClCompile Include="Input.cpp">
+      <Filter>Manager\KeyInput</Filter>
+    </ClCompile>
+    <ClCompile Include="TETRIS.cpp">
+      <Filter>Default</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>Manager\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="LBlock.cpp">
+      <Filter>Object\Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBoard.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Layer.cpp">
+      <Filter>Scene\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Manager\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="JBlock.cpp">
+      <Filter>Object\Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="IBlock.cpp">
+      <Filter>Object\Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="OBlock.cpp">
+      <Filter>Object\Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="TBlock.cpp">
+      <Filter>Object\Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="ZBlock.cpp">
+      <Filter>Object\Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="SBlock.cpp">
+      <Filter>Object\Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>Object\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>Object\Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="Square.cpp">
+      <Filter>Object\Square</Filter>
+    </ClCompile>
+    <ClCompile Include="GhostBlock.cpp">
+      <Filter>Object\Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="StartButton.cpp">
+      <Filter>Object\UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TETRIS.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="TETRIS.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
